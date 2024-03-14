@@ -1,4 +1,4 @@
-const form = document.querySelector('form');
+const form = document.querySelector('forma');
 form.addEventListener('submit', function(e){
     e.preventDefault();
 
@@ -15,4 +15,11 @@ form.addEventListener('submit', function(e){
 
         results.innerHTML = `<span> ${bmi} </span>`;
     }
+})
+
+const fo = document.querySelector('form');
+fo.addEventListener('submit', function(r){
+    r.preventDefault();
+
+    const he = parseInt
 })
